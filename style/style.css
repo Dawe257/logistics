@@ -1,4 +1,7 @@
 body {
+    background: linear-gradient(0deg, rgba(47, 52, 58, 0.75), rgba(47, 52, 58, 0.75)), url(img/truck.jpg);
+    background-color: #2F343A;
+
     font-family: 'Roboto', sans-serif;
     color: white;
 }
