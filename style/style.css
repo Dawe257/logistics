@@ -110,3 +110,55 @@ body {
 .bg > img {
     margin-top: 7%;
 }
+
+.services-border {
+    margin-top: 10%;
+}
+.services {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+.grid-services {
+    text-align: center;
+    display: grid;
+    grid-template-areas: "a b c d" "e f g h";
+    grid-gap: 1px;
+}
+.airplane {
+    background-image: url(../img/airplane.png);
+    width: 30px;
+    height: 30px;
+    margin-top: 12%;
+}
+.grid-services-item {
+    background-color: #393F47;
+    /* padding: 20px; */
+    width: 276px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.grid-services-item > p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+}
+.grid-services-item:hover {
+    transition: 0.5s;
+    background-color: #C8A35F;
+}
+.grid-services-item:hover .airplane {
+    background-image: url(../img/airplane-black.png);
+}
