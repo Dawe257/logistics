@@ -66,3 +66,47 @@ body {
     text-transform: uppercase;
     margin-right: 20px;
 }
+.bg {
+    background: url(../img/truck.jpg);
+    width: 1920px;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 920px;
+    height: 245px;
+    border: 1px solid #C8A35F;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+
+.box > h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 0%;
+    margin-top: 5%;
+}
+
+.box > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.bg > img {
+    margin-top: 7%;
+}
