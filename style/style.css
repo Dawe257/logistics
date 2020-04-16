@@ -45,8 +45,8 @@ body {
 .header-company {
     display: flex; 
     font-size: 14px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .header-company > img {
     margin-right: 10px;
