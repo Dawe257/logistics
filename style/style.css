@@ -73,7 +73,6 @@ body {
 
 .bg {
     background: url(../img/truck.jpg);
-    width: 1920px;
     height: 620px;
     display: flex;
     justify-content: center;
