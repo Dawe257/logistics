@@ -1,10 +1,18 @@
-var hiddenElement = document.getElementById("services");
-var btn = document.querySelector('.services-button');
-function handleButtonClick() {
-    hiddenElement.scrollIntoView({ block: "start", behavior: "smooth" });
+//меню навигации
+var services = document.getElementById("services");
+var servicesButton = document.querySelector('.services-button');
+var contacts = document.getElementById("contacts");
+var contactsButton = document.querySelector('.contacts-button');
+var officesButton = document.querySelector('.offices-button');
+function servicesButtonClick() {
+    services.scrollIntoView({ block: "start", behavior: "smooth" });
 }
-btn.addEventListener('click', handleButtonClick);
-
+function contactsButtonClick() {
+    contacts.scrollIntoView({ block: "start", behavior: "smooth" });
+}
+servicesButton.addEventListener('click', servicesButtonClick);
+contactsButton.addEventListener('click', contactsButtonClick);
+officesButton.addEventListener('click', contactsButtonClick);
 
 
 //back to top

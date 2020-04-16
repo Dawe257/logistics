@@ -51,6 +51,9 @@ body {
 .header-company > img {
     margin-right: 10px;
 }
+.header-company > p {
+    cursor: pointer;
+}
 #line {
     margin-right: 25px;
     margin-left: 20px;
@@ -169,6 +172,18 @@ body {
 .company {
     height: 500px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .scrollup{
     width:40px;
